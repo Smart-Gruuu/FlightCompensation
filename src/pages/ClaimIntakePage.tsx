@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useForm } from 'react-hook-form'
 import { useNavigate } from 'react-router-dom'
 import { FlightDetails, PassengerDetails } from '../types'
-import { Button, Card, Input, Textarea, FileUpload, Checkbox, StepIndicator, Alert } from '../components'
+import { Button, Card, Input, Textarea, FileUpload, Checkbox, StepIndicator } from '../components'
 
 interface ClaimFormData {
   flight: FlightDetails

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useForm } from 'react-hook-form'
 import { Link } from 'react-router-dom'
-import { CheckCircle, XCircle, Info } from 'lucide-react'
+import { CheckCircle, XCircle } from 'lucide-react'
 import { checkEligibility, formatCompensationAmount, type EligibilityInput } from '../utils/eu261'
 import { Button, Card, Input, Textarea, Checkbox, Alert } from '../components'
 

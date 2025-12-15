@@ -4,7 +4,7 @@ import { FileText, Mail, Calendar, Plane, User, AlertCircle, CheckCircle, XCircl
 import { Claim } from '../types'
 import { formatCompensationAmount } from '../utils/eu261'
 import { format } from 'date-fns'
-import { Button, Card, StatusBadge, Alert } from '../components'
+import { Button, Card, StatusBadge } from '../components'
 
 export default function ClaimDetailPage() {
   const { id } = useParams<{ id: string }>()
