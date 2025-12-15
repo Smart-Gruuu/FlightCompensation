@@ -60,9 +60,9 @@ export default function Layout({ children }: LayoutProps) {
       <footer className="bg-white border-t border-gray-200 mt-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="text-center text-sm text-gray-600">
-            <p>© 2024 Flight Compensation Platform. EU261 Regulation 261/2004 compliance.</p>
+            <p>© 2025 Flight Compensation Platform. EU261 Regulation 261/2004 compliance.</p>
             <p className="mt-2">
-              This platform helps passengers claim compensation for flight delays and cancellations under EU Regulation 261/2004.
+              Developed by @garry602 (Telegram) from Serbia.
             </p>
           </div>
         </div>
